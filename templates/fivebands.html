@@ -1,0 +1,68 @@
+<div id="container-five" ng-controller="FiveBandsController">
+    <h1>Cinco Bandas</h1>
+    <table id="table-resist">
+        <tr id="top-cell">
+            <td><img src="imgs/top.png" alt="Cabecera resistencia"></td>
+        </tr>
+        <tr>
+            <td id="band1" class="band"></td>
+            <td>
+                <select class="color-select" id="1" ng-model="band1" ng-options="lista.name for lista in listColors track by lista.valor" ng-change="selectColor(1)"></select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="imgs/band.png" alt="Banda 1">
+            </td>
+        </tr>
+        <tr>
+            <td id="band2" class="band"></td>
+            <td>
+                <select class="color-select" id="2" ng-model="band2" ng-options="lista.name for lista in listColors track by lista.valor" ng-change="selectColor(2)"></select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="imgs/band.png" alt="Banda 2">
+            </td>
+        </tr>
+        <tr>
+            <td id="band3" class="band"></td>
+            <td>
+                <select class="color-select" id="3" ng-model="band3" ng-options="lista.name for lista in listColors track by lista.valor" ng-change="selectColor(3)"></select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="imgs/band.png" alt="Banda 3">
+            </td>
+        </tr>
+        <tr>
+            <td id="band4" class="band"></td>
+            <td>
+                <select class="color-select" id="4" ng-model="band4" ng-options="lista.name for lista in listMultipli track by lista.valor" ng-change="selectColor(4)"></select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="imgs/band.png" alt="Banda 4">
+            </td>
+        </tr>
+        <tr>
+            <td id="band5" class="band"></td>
+            <td>
+                <select class="color-select" id="5" ng-model="band5" ng-options="lista.name for lista in listTolerance track by lista.valor" ng-change="selectColor(5)"></select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="imgs/bottom.png" alt="Pie">
+            </td>
+        </tr>
+        
+    </table>
+
+    
+
+</div>
+

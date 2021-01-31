@@ -1,0 +1,17 @@
+.band{
+    height: 20px;
+    border: 1px solid black;
+    column-width: inherit;
+}
+table{
+    border-collapse: separate;
+    text-align: center;
+    border-spacing: 5px;
+    border: 1px solid black;
+}
+td{
+    vertical-align: middle;
+}
+.resistor-body{
+    
+}

@@ -1,0 +1,8 @@
+#main{
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+}
+.color-select{
+    width: 100%;
+}
